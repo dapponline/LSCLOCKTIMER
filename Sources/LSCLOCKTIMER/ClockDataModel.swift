@@ -7,7 +7,7 @@
 
 import Foundation
 
-public final class DataModel {
+public final class ClockDataModel {
     
     var clockType: ClockImpl
     

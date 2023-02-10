@@ -3,12 +3,12 @@ import XCTest
 
 class ClockViewModelTests: XCTestCase {
     var clockViewModel: ClockViewModel!
-    var dataModel: DataModel!
+    var dataModel: ClockDataModel!
 
     override func setUp() {
         super.setUp()
         clockViewModel = ClockViewModel()
-        dataModel = DataModel(clockType: MockStandardClock())
+        dataModel = ClockDataModel(clockType: MockStandardClock())
     }
 
     override func tearDown() {
