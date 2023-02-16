@@ -9,7 +9,7 @@ import Foundation
 
 public final class ClockDataModel {
     
-    let clockViewModel: ClockViewModel
+    public let clockViewModel: ClockViewModel
     
     var clockType: ClockImpl
     
