@@ -9,12 +9,15 @@ import Foundation
 
 public final class ClockDataModel {
     
+    let clockViewModel: ClockViewModel
+    
     var clockType: ClockImpl
     
     public init(
-        clockType: ClockImpl
+        clockType: ClockImpl, clockViewModel: ClockViewModel
     ) {
         self.clockType = clockType
+        self.clockViewModel = clockViewModel
     }
     
     public func setupClock() {
